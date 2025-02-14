@@ -1,7 +1,7 @@
-# 📌 Casos de Teste - Desafio QA
+# Casos de Teste - Desafio QA
 
-## 🏦 **Testes Funcionais**
-### ✅ **Depósito**
+## **Testes Funcionais**
+### **Depósito**
 #### **CT001 - Depósito Válido**
 - **Pré-condição**: O usuário deve estar logado.
 - **Passos**:
@@ -10,7 +10,7 @@
   3. Clicar no botão "Depositar".
 - **Resultado Esperado**: O saldo deve ser atualizado corretamente e um aviso de sucesso deve ser exibido.
 
-#### ❌ **CT002 - Depósito com Valor Negativo**
+#### **CT002 - Depósito com Valor Negativo**
 - **Pré-condição**: O usuário deve estar logado.
 - **Passos**:
   1. Acessar a página de depósito.
@@ -20,7 +20,7 @@
 
 ---
 
-### ✅ **Saque**
+### **Saque**
 #### **CT003 - Saque Válido**
 - **Pré-condição**: O usuário deve ter saldo suficiente.
 - **Passos**:
@@ -29,7 +29,7 @@
   3. Clicar no botão "Sacar".
 - **Resultado Esperado**: O saldo deve ser atualizado corretamente e uma mensagem de sucesso deve ser exibida.
 
-#### ❌ **CT004 - Saque acima do Saldo**
+#### **CT004 - Saque acima do Saldo**
 - **Pré-condição**: O usuário deve ter um saldo menor que o valor a ser sacado.
 - **Passos**:
   1. Acessar a página de saque.
@@ -39,7 +39,7 @@
 
 ---
 
-### ✅ **Transferência**
+### **Transferência**
 #### **CT005 - Transferência para outra Conta**
 - **Pré-condição**: O usuário deve ter saldo suficiente e conhecer o número da conta de destino.
 - **Passos**:
@@ -49,7 +49,7 @@
   4. Clicar no botão "Transferir".
 - **Resultado Esperado**: O saldo do remetente deve ser reduzido e o saldo do destinatário deve ser aumentado corretamente.
 
-#### ❌ **CT006 - Transferência para Conta Inexistente**
+#### **CT006 - Transferência para Conta Inexistente**
 - **Pré-condição**: O usuário deve estar logado.
 - **Passos**:
   1. Acessar a página de transferência.
@@ -60,7 +60,7 @@
 
 ---
 
-## 🎨 **Testes de Interface (UI)**
+## **Testes de Interface (UI)**
 #### **CT007 - Responsividade no Mobile**
 - **Passos**:
   1. Acessar o site em um dispositivo móvel ou reduzir a tela do navegador.
